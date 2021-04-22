@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{ margin: 0; padding: 0; }
+html,body{ height: 100%; font-family: 'Noto Sans KR', sans-serif; }
+ul,ol{ list-style: none; }
+button{ outline: none; }
+
+#mydiv{
+  height: 250px;
+  width: 250px;
+  overflow: auto;/*스크롤생성*/
+}
+
+#content{
+  height: 800px;
+  width: 2000px;
+  background-color: orange;
+}
+
+button{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+button.left{
+  background-color: skyblue;
+}
